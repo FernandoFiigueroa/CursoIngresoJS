@@ -11,12 +11,14 @@ function sumar()
 	let Resultado;
 
 	//asignacion de valores
-	NumeroUno =document.getElementById("txtIdNumeroUno").value;
+	NumeroUno=document.getElementById("txtIdNumeroUno").value;
 
 	NumeroDos =document.getElementById("txtIdNumeroDos").value;
 
 	//definicion y parseo de variables
-	NumeroUno=parseInt(NumeroUno);
+	
+	//NumeroUno=parseInt(NumeroUno);
+	NumeroUno = parseInt(NumeroUno)
 	NumeroDos=parseInt(NumeroDos);
 
 	//sumar los numeros
