@@ -1,6 +1,10 @@
+/* Figueroa Fernando DIV X*/
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
+	let numero;
+	const MINIMO = 1;
+	const MAXIMO = 10;
+	numero = Math.round(Math.random() * (MAXIMO - MINIMO) + MINIMO);
 
+	alert(numero);
 }//FIN DE LA FUNCIÓN

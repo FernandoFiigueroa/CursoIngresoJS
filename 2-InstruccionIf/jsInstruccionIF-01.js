@@ -1,6 +1,12 @@
+/* Figueroa Fernando DIV X*/ 
 function mostrar()
 {
+	let edad;
 	//tomo la edad  
-	alert("ok");
+	edad = parseInt(document.getElementById("txtIdEdad").value);
 
-}//FIN DE LA FUNCIÓN
+	if (edad == 15){
+		alert("Niña bonita");	
+	}
+
+}
