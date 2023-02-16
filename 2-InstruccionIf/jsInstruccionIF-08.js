@@ -18,3 +18,10 @@ function mostrar()
 
 
 }//FIN DE LA FUNCIÓN
+
+/* condicion de negacion:
+
+if(!(edad <18 || estadoCivil != "soltero"));
+{	
+	alert('Es soltero y no es menor.')
+}*/

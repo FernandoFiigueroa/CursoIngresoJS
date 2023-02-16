@@ -14,7 +14,7 @@ function mostrarAumento()
 		//Para calcular el nuevo sueldo le tengo que sumar el Descuento  al sueldo original
 		//el porcentaje de un valor lo consigo multiplicando el valor por el porcentaje dividido 100
 		sueldo = parseInt(document.getElementById("txtIdImporte").value);
-	 	descuento = sueldo *  25 / 100;
+	 	descuento = sueldo *  25 / 100;	
 		importefinal = sueldo - descuento;
 		document.getElementById("txtIdResultado").value = importefinal;
 

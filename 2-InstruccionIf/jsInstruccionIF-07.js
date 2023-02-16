@@ -1,19 +1,15 @@
 /* Figueroa Fernando DIV X*/
-function mostrar()
-{
-	let edad;
-	let estadoCivil;
-	
-	//tomo la edad  
-	edad = parseInt(document.getElementById("txtIdEdad").value);
+function mostrar() {
+  let edad;
+  let estadoCivil;
 
-	//Tomo estado civil
-	estadoCivil = document.getElementById("estadoCivil").value;
+  //tomo la edad
+  edad = parseInt(document.getElementById("txtIdEdad").value);
 
-	if  (edad < 18 && estadoCivil != "Soltero" )
-	{
-		alert( "Es muy pequeño para NO ser soltero.")
-	}
-	
+  //Tomo estado civil
+  estadoCivil = document.getElementById("estadoCivil").value;
 
-}//FIN DE LA FUNCIÓN
+  if (edad < 18 && estadoCivil != "Soltero") {
+    alert("Es muy pequeño para NO ser soltero.");
+  }
+} //FIN DE LA FUNCIÓN
