@@ -5,7 +5,8 @@ mostrar el resulto por medio de "ALERT"
 Figueroa Fernando DIV X*/
 function sumar()
 {
-	//dclaracion de variables
+	
+	/*//dclaracion de variables
 	let NumeroUno;
 	let NumeroDos;
 	let Resultado;
@@ -25,6 +26,8 @@ function sumar()
 	Resultado= NumeroUno + NumeroDos;
 
 	//resultado
-	alert(`La suma es: ${Resultado}`);
+	alert(`La suma es: ${Resultado}`);*/
+
+	
 }
 
